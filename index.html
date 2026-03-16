@@ -3,28 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MZ HACKER TERMINAL</title>
+    <title>MZ STUDIO | Hacker Terminal & Dev Log</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    </head>
 <body>
-    <div class="ad-top">REKLAMA JOYI (Top Banner)</div>
 
-    <div class="terminal-container">
-        <div class="terminal-header">MZ_OS v.2.0 - SECURE TERMINAL</div>
-        <div id="output">
-            <p class="system-msg">Welcome, Agent. Type <span class="cmd">'help'</span> to see available commands.</p>
-        </div>
-        <div class="input-line">
-            <span>agent@mz_studio:~$</span>
-            <input type="text" id="commandInput" autofocus spellcheck="false">
+    <div class="ad-container top-ad">
+        <small>ADVERTISEMENT</small>
+        <div class="ad-placeholder">
+            Display Ad (728x90)
         </div>
     </div>
 
-    <div class="blog-section">
-        <h2>Latest Security Logs</h2>
-        <p>In this blog, we explore how cybersecurity affects game development...</p>
-        <div class="ad-mid">REKLAMA JOYI (Article Ad)</div>
-    </div>
+    <header>
+        <div class="logo">MZ_STUDIO_TERMINAL</div>
+        <nav>
+            <a href="#game">TERMINAL</a>
+            <a href="#blog">DEV_LOG</a>
+            <a href="privacy.html">PRIVACY</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="game" class="terminal-section">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="title">agent@mz_studio: ~ (bash)</span>
+                </div>
+                <div id="output">
+                    <p class="system-msg">Initializing secure connection...</p>
+                    <p class="system-msg">Connected to MZ_SERVER. Type <span class="cmd">'help'</span> to start.</p>
+                </div>
+                <div class="input-line">
+                    <span class="prompt">agent@mz_studio:~$</span>
+                    <input type="text" id="commandInput" autofocus spellcheck="false" autocomplete="off">
+                </div>
+            </div>
+        </section>
+
+        <div class="ad-container side-ad">
+            <small>ADVERTISEMENT</small>
+            <div class="ad-placeholder">
+                Square Ad (300x250)
+            </div>
+        </div>
+
+        <section id="blog" class="content-section">
+            <h2 class="section-title">Latest Developer Logs</h2>
+            
+            <article class="blog-post">
+                <h3>The Future of Minimalist Web Design</h3>
+                <p>In 2026, web development is shifting back to high-performance, low-latency interfaces. This terminal simulator is part of an ongoing research at MZ STUDIO to explore how users interact with text-based UI. Using raw JavaScript instead of heavy frameworks allows for instant loading even on mobile devices...</p>
+                <a href="#" class="read-more">Read Full Article _</a>
+            </article>
+
+            <article class="blog-post">
+                <h3>Cybersecurity in Indie Game Development</h3>
+                <p>Security is often overlooked by indie developers. When we built projects like 'Signal 404', we realized that data encryption and secure API calls are essential for protecting player progress. In this log, we break down the basic steps for securing your game's backend...</p>
+                <a href="#" class="read-more">Read Full Article _</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 MZ STUDIO. Based in Uzbekistan.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a> | 
+                <a href="mailto:your-email@example.com">Contact Us</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
