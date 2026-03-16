@@ -1,0 +1,51 @@
+body {
+    background: #050505;
+    color: #00ff41;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 10px;
+}
+
+.ad-top, .ad-mid {
+    background: #111;
+    border: 1px dashed #333;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0;
+    color: #444;
+}
+
+.terminal-container {
+    background: #000;
+    border: 1px solid #00ff41;
+    height: 400px;
+    padding: 15px;
+    overflow-y: auto;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+}
+
+.terminal-header {
+    background: #00ff41;
+    color: #000;
+    margin: -15px -15px 15px -15px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+#output p { margin: 5px 0; line-height: 1.4; }
+
+.input-line { display: flex; gap: 10px; }
+
+input {
+    background: transparent;
+    border: none;
+    color: #00ff41;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+    flex: 1;
+}
+
+.system-msg { color: #58a6ff; }
+.error-msg { color: #ff3333; }
+.success-msg { color: #ffff00; }
